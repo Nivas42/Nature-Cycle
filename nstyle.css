@@ -1,0 +1,229 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav h1{
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+nav span{
+    color: green;
+}
+.box span{
+    color: green;
+}
+section{
+    background-color: #44566e;
+}
+section input{
+    width: 25%;
+    height: 40px;
+    margin-left: 30px;
+    border: 2px solid green;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px;
+}
+ul,li{
+    display: inline-block;
+    color: white;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+ul li:hover{
+    color: green;
+    cursor: pointer;
+}
+section i{
+    color: rgb(144, 221, 144);
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.block{
+    background-image: url(./images/banner.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block button{
+    width: 150px;
+    height: 60px;
+    margin-left: 300px;
+    margin-top: 20px;
+    background-color:green;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: white;
+}
+.block img{
+    width: 350px;
+    height: 500px;
+    margin-right: 50px;
+    padding-right: 70px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box h1{
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 80px; 
+}
+.box h2{
+    margin-left: 70px;
+    font-size: 50px;
+}
+.box p{
+    margin-left: 70px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #183661;
+}
+.name h1{
+    margin-left: 50px;
+    font-size: 40px;
+}
+.dress{
+    width: 200px;
+    height: 220px;
+    background-color: silver;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.dress img{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.product {
+    background-image: url(./images/product_bg.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+.name button{
+    width: 150px;
+    height: 60px;
+    margin-left: 600px;
+    margin-top: 20px;
+    background-color:green;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: white;
+}
+.done img{
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+hr{
+    margin-left: 50px;
+}
+.shirt{
+    margin-left: 50px;
+    display: inline-block;
+}
+.shirt1{
+    margin-left: 125px;
+    display: inline-block;
+}
+.shirt2{
+    margin-left: 120px;
+    display: inline-block;
+}
+.shirt3{
+    margin-left: 120px;
+    display: inline-block;
+}
+.shirt4{
+    margin-left: 120px;
+    display: inline-block;
+}
+.shoe{
+    margin-left: 50px;
+    display: inline-block;
+}
+.shoe1{
+    margin-left: 95px;
+    display: inline-block;
+}
+.shoe2{
+    margin-left: 95px;
+    display: inline-block;
+}
+.shoe3{
+    margin-left: 90px;
+    display: inline-block;
+}
+.shoe4{
+    margin-left: 95px;
+    display: inline-block;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+}
+.more h1{
+    margin-left: 50px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.wow h2{
+    margin-left: 50px;
+    font-size: 35px;
+}
+.wow p{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.get h1{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 40px;
+    display: inline-block;
+}
+.get input{
+    width: 40%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 80px;
+}
+.get button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: green;
+    margin-top: 10px;
+    margin-left: 20px;
+}
